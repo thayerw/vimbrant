@@ -1,0 +1,41 @@
+#
+#   title:  vimbrant - an moc theme 
+#   author: thayer williams
+#   site:   http://cinderwick.ca/
+#
+
+background              = default   default normal
+frame                   = white     default normal
+window_title            = yellow    default bold
+directory               = cyan      default normal
+selected_directory      = cyan      default bold
+playlist                = yellow    default normal
+selected_playlist       = yellow    default bold
+file                    = white     default normal
+selected_file           = white     default bold
+marked_file             = magenta   default normal
+marked_selected_file    = green     default bold
+info                    = black     default bold
+marked_info             = magenta   default normal
+selected_info           = blue      default normal
+status                  = white     red     bold
+title                   = yellow    default bold
+state                   = green     default bold,blink
+current_time            = white     default bold
+time_left               = black     default bold
+total_time              = red       default normal
+time_total_frames       = white     default normal
+sound_parameters        = white     default bold
+legend                  = cyan      default normal
+disabled                = black     default bold
+enabled                 = white     default bold
+empty_mixer_bar         = white     default bold
+filled_mixer_bar        = white     green   bold
+empty_time_bar          = black     default bold
+filled_time_bar         = white     white   bold
+entry                   = white     default normal
+entry_title             = magenta   default normal
+error                   = white     default bold
+message                 = yellow    default bold
+plist_time              = white     default bold
+
