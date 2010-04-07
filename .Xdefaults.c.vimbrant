@@ -31,9 +31,15 @@ urxvt*cursorColor:      #fd971f
 !cyan
 *color6:    #465457
 *color14:   #899ca1
+*color6:    #56676b
+*color14:   #899ca1
 !white
 *color7:    #ccccc6
 *color15:   #f8f8f2
+*color7:    #bfbfba
+*color15:   #ebebe5
+*color7:    #aaaaaa
+*color15:   #ffffff
 
 ! alsamixer scheme
 alsamixer*color1:   #ff2759
