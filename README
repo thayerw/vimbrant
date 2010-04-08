@@ -1,0 +1,57 @@
+ABOUT
+=====
+
+Vimbrant began as dark and vibrant colourscheme for the vim text
+editor, and is based on the molokai vim colorscheme.
+
+At some point I incorporated the general colourscheme into my
+Xdefaults and then went about creating compatible themes for 
+my daily console applications, including:
+
+    * mutt (email)
+    * moc (music on console)
+    * ncmpc (mpd client)
+    * vifm (file manager)
+    * midnight commander (file manager)
+
+
+From the vim colorscheme
+------------------------
+
+Vim color file
+Scriptname:   vimbrant
+Author:       Thayer Williams <thayer.cinderwick.ca>
+Description:  A vibrant light-on-dark colorscheme with support
+for GUI, 256-color and 16-color terminals and optional transparency
+
+Based on the molokai theme by Tomas Restrepo, which in turn 
+is based on the monokai theme for textmate by Wimer Hazenberg
+and its darker variant by Hamish Stuart Macpherson.  A big 
+thanks to these individuals for making what are some of the 
+best color schemes ever.
+
+For optimal 16-color experience, add the following to ~/.bashrc:
+
+# linux console colors -------------------------------------
+if [ "$TERM" = "linux" ]; then
+     echo -en "\e]P0000000" #black
+     echo -en "\e]P8505354" #darkgrey
+     echo -en "\e]P1f92672" #darkred
+     echo -en "\e]P9ff5995" #red
+     echo -en "\e]P282b414" #darkgreen
+     echo -en "\e]PAb6e354" #green
+     echo -en "\e]P3fd971f" #brown
+     echo -en "\e]PBfeed6c" #yellow
+     echo -en "\e]P456c2d6" #darkblue
+     echo -en "\e]PC8cedff" #blue
+     echo -en "\e]P58c54fe" #darkmagenta
+     echo -en "\e]PD9e6ffe" #magenta
+     echo -en "\e]P6465457" #darkcyan
+     echo -en "\e]PE899ca1" #cyan
+     echo -en "\e]P7ccccc6" #lightgrey
+     echo -en "\e]PFf8f8f2" #white
+     clear # back to default input colours
+fi
+# ------------------------------------------------------------
+
+
