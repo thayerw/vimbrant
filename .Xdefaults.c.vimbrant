@@ -4,6 +4,11 @@
 ! vim:enc=utf-8:nu:ai:si:et:ts=4:sts=4:sw=4:ft=xdefaults:
 ! ----------------------------------------------------------------------
 
+! Append the following to ~/.Xdefaults to import this color scheme:
+!   
+!       #include "/home/user/.Xdefaults.c.vimbrant"
+!
+
 urxvt*cursorColor:      #fd971f
 
 ! terminal colours
