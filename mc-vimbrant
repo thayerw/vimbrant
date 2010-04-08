@@ -1,0 +1,3 @@
+[Colors]
+; vimbrant colorscheme
+base_color=dnormal=brightcyan,cyan:dfocus=white,cyan:dhotnormal=yellow,cyan:dhotfocus=yellow,cyan:menu=brightcyan,cyan:menusel=white,cyan:menuhot=white,cyan:menuhotsel=magenta,cyan:input=lightgray,black:reverse=lightgray,black:gauge=green,default:normal=cyan,default:selected=white,cyan:marked=yellow,default:executable=green,default:directory=brightcyan,default:link=red,default:statelink=brightred,default:device=brightblue,default:special=red,default:core=brightred,default:editnormal=lightgray,default:editbold=brightred,default:editmarked=black,lightgray

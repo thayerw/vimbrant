@@ -1,0 +1,16 @@
+
+enable-colors = yes
+
+color background = none
+color title = magenta
+color title-bold = white
+color line = brightyellow
+color line-flags = red 
+color list = cyan
+color list-bold = brightcyan 
+color progressbar = brightyellow
+color status-state = white
+color status-song =  yellow
+color status-time = brightwhite
+color alert = red
+

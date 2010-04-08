@@ -1,0 +1,15 @@
+COLORSCHEME=Transparent
+DIRECTORY=/
+COLOR=MENU=white=default
+COLOR=BORDER=black=white
+COLOR=WIN=white=default
+COLOR=STATUS_BAR=white=default
+COLOR=CURR_LINE=white=cyan
+COLOR=DIRECTORY=cyan=default
+COLOR=LINK=yellow=default
+COLOR=SOCKET=magenta=default
+COLOR=DEVICE=red=default
+COLOR=EXECUTABLE=green=default
+COLOR=SELECTED=blue=default
+COLOR=CURRENT=white=default
+
