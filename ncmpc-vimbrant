@@ -1,3 +1,16 @@
+# ~/.ncmpc/config
+
+# center current track
+auto-center = yes
+
+# screen-wide cursor
+wide-cursor = yes
+
+# wrap to the top
+wrap-around = no
+
+# wrap searching to top
+find-wrap = yes
 
 enable-colors = yes
 
@@ -6,6 +19,7 @@ color title = magenta
 color title-bold = white
 color line = brightyellow
 color line-flags = red 
+color browser-directory = white
 color list = cyan
 color list-bold = brightcyan 
 color progressbar = brightyellow
