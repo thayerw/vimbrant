@@ -131,7 +131,7 @@ if has('gui_running')
     hi Visual                        guibg=#403D3D
     hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
     hi WildMenu        guifg=#66D9EF guibg=#000000
-    "
+
     " Outlines
     hi OL1             guifg=#A6E22E
     hi OL2             guifg=#F92672
@@ -320,6 +320,22 @@ elseif &t_Co > 255
     hi LineNr          ctermfg=240 ctermbg=235
     hi NonText         ctermfg=250
 
+    if has("spell")
+        hi clear SpellBad
+        hi SpellBad     ctermfg=197 term=underline,standout  cterm=underline
+        hi clear SpellCap
+        hi SpellCap     ctermfg=208 term=underline  cterm=underline
+        hi clear SpellLocal
+        hi SpellLocal   ctermfg=226 term=underline  cterm=underline
+        hi clear SpellRare
+        hi SpellRare    ctermfg=229 term=underline  cterm=underline
+    endif
+
+    if transparency == "true"
+        hi Normal          ctermfg=248 ctermbg=NONE
+        hi LineNr          ctermfg=240 ctermbg=NONE
+    end
+
     " Outlines
     hi OL1             ctermfg=118
     hi OL2             ctermfg=197
@@ -388,22 +404,6 @@ elseif &t_Co > 255
     hi UB7             ctermfg=240
     hi UB8             ctermfg=240
     hi UB9             ctermfg=240
-
-    if has("spell")
-        hi clear SpellBad
-        hi SpellBad     ctermfg=197 term=underline,standout  cterm=underline
-        hi clear SpellCap
-        hi SpellCap     ctermfg=208 term=underline  cterm=underline
-        hi clear SpellLocal
-        hi SpellLocal   ctermfg=226 term=underline  cterm=underline
-        hi clear SpellRare
-        hi SpellRare    ctermfg=229 term=underline  cterm=underline
-    endif
-
-    if transparency == "true"
-        hi Normal          ctermfg=248 ctermbg=NONE
-        hi LineNr          ctermfg=240 ctermbg=NONE
-    end
 
 elseif &t_Co < 256
 
@@ -477,20 +477,6 @@ elseif &t_Co < 256
     hi Special         ctermfg=4  
     hi SpecialKey      ctermfg=7  
 
-    " Outlines
-    hi OL1             ctermfg=1                cterm=bold
-    hi OL2             ctermfg=4                cterm=bold
-    hi OL3             ctermfg=6                cterm=bold
-    hi OL4             ctermfg=7                cterm=bold
-    hi OL5             ctermfg=1
-    hi OL6             ctermfg=4
-    hi OL7             ctermfg=6
-    hi OL8             ctermfg=7
-    hi OL9             ctermfg=3
-
-    " Outline tags
-    hi outlTags        ctermfg=1                cterm=bold
-
     if has("spell")
         hi clear SpellBad
         hi SpellBad     ctermfg=1 term=underline,standout  cterm=underline
@@ -526,6 +512,20 @@ elseif &t_Co < 256
     hi CursorLine                                cterm=none
     hi LineNr          ctermfg=7   ctermbg=8
     hi NonText         ctermfg=7
+
+    " Outlines
+    hi OL1             ctermfg=1                cterm=bold
+    hi OL2             ctermfg=4                cterm=bold
+    hi OL3             ctermfg=6                cterm=bold
+    hi OL4             ctermfg=7                cterm=bold
+    hi OL5             ctermfg=1
+    hi OL6             ctermfg=4
+    hi OL7             ctermfg=6
+    hi OL8             ctermfg=7
+    hi OL9             ctermfg=3
+
+    " Outline tags
+    hi outlTags        ctermfg=1                cterm=bold
 
 endif
  
