@@ -191,15 +191,15 @@ elseif &t_Co > 255
     "hi mailURL         links to String 
     "hi mailEmail       links to Special 
     "hi mailSignature   links to PreProc 
-    hi mailSubject     ctermfg=186
-    hi mailHeaderKey   ctermfg=186
-    hi mailHeader      ctermfg=186
-    hi mailQuoted1     ctermfg=6
-    hi mailQuoted2     ctermfg=14
-    hi mailQuoted3     ctermfg=2
-    hi mailQuoted4     ctermfg=3
-    hi mailQuoted5     ctermfg=1
-    hi mailQuoted6     ctermfg=5
+    hi mailSubject     ctermfg=208
+    hi mailHeaderKey   ctermfg=166
+    hi mailHeader      ctermfg=166
+    hi mailQuoted1     ctermfg=33
+    hi mailQuoted2     ctermfg=118
+    hi mailQuoted3     ctermfg=208
+    hi mailQuoted4     ctermfg=226
+    hi mailQuoted5     ctermfg=135
+    hi mailQuoted6     ctermfg=1
     
     hi MatchParen      ctermfg=16  ctermbg=208   cterm=bold
     hi ModeMsg         ctermfg=229
@@ -250,6 +250,75 @@ elseif &t_Co > 255
     hi CursorColumn                ctermbg=234
     hi LineNr          ctermfg=240 ctermbg=235
     hi NonText         ctermfg=250
+
+    " Outlines
+    hi OL1             ctermfg=118
+    hi OL2             ctermfg=197
+    hi OL3             ctermfg=208
+    hi OL4             ctermfg=81
+    hi OL5             ctermfg=135
+    hi OL6             ctermfg=186
+    hi OL7             ctermfg=225
+    hi OL8             ctermfg=161
+    hi OL9             ctermfg=67
+
+    " Outline tags
+    hi outlTags        ctermfg=118               cterm=bold
+
+    " Body text
+    hi BT1             ctermfg=244
+    hi BT2             ctermfg=244
+    hi BT3             ctermfg=244
+    hi BT4             ctermfg=244
+    hi BT5             ctermfg=244
+    hi BT6             ctermfg=244
+    hi BT7             ctermfg=244
+    hi BT8             ctermfg=244
+    hi BT9             ctermfg=244
+
+    " Pre-formatted text
+    hi PT1             ctermfg=135
+    hi PT2             ctermfg=135
+    hi PT3             ctermfg=135
+    hi PT4             ctermfg=135
+    hi PT5             ctermfg=135
+    hi PT6             ctermfg=135
+    hi PT7             ctermfg=135
+    hi PT8             ctermfg=135
+    hi PT9             ctermfg=135
+
+    " Tables
+    hi TA1             ctermfg=67
+    hi TA2             ctermfg=67
+    hi TA3             ctermfg=67
+    hi TA4             ctermfg=67
+    hi TA5             ctermfg=67
+    hi TA6             ctermfg=67
+    hi TA7             ctermfg=67
+    hi TA8             ctermfg=67
+    hi TA9             ctermfg=67
+
+    " 'user text'
+    hi UT1             ctermfg=244
+    hi UT2             ctermfg=244
+    hi UT3             ctermfg=244
+    hi UT4             ctermfg=244
+    hi UT5             ctermfg=244
+    hi UT6             ctermfg=244
+    hi UT7             ctermfg=244
+    hi UT8             ctermfg=244
+    hi UT9             ctermfg=244
+
+    " non-wrapping 'user text'
+    hi UB1             ctermfg=240
+    hi UB2             ctermfg=240
+    hi UB3             ctermfg=240
+    hi UB4             ctermfg=240
+    hi UB5             ctermfg=240
+    hi UB6             ctermfg=240
+    hi UB7             ctermfg=240
+    hi UB8             ctermfg=240
+    hi UB9             ctermfg=240
 
     if has("spell")
         hi clear SpellBad
