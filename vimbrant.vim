@@ -477,6 +477,20 @@ elseif &t_Co < 256
     hi Special         ctermfg=4  
     hi SpecialKey      ctermfg=7  
 
+    " Outlines
+    hi OL1             ctermfg=1                cterm=bold
+    hi OL2             ctermfg=4                cterm=bold
+    hi OL3             ctermfg=6                cterm=bold
+    hi OL4             ctermfg=7                cterm=bold
+    hi OL5             ctermfg=1
+    hi OL6             ctermfg=4
+    hi OL7             ctermfg=6
+    hi OL8             ctermfg=7
+    hi OL9             ctermfg=3
+
+    " Outline tags
+    hi outlTags        ctermfg=1                cterm=bold
+
     if has("spell")
         hi clear SpellBad
         hi SpellBad     ctermfg=1 term=underline,standout  cterm=underline
