@@ -131,6 +131,75 @@ if has('gui_running')
     hi Visual                        guibg=#403D3D
     hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
     hi WildMenu        guifg=#66D9EF guibg=#000000
+    "
+    " Outlines
+    hi OL1             guifg=#A6E22E
+    hi OL2             guifg=#F92672
+    hi OL3             guifg=#FD971F
+    hi OL4             guifg=#66D9EF
+    hi OL5             guifg=#AE81FF
+    hi OL6             guifg=#E6DB74
+    hi OL7             guifg=#BCA3A3
+    hi OL8             guifg=#F92672
+    hi OL9             guifg=#465457
+
+    " Outline tags
+    hi outlTags        guifg=#A6E22E               gui=bold
+
+    " Body text
+    hi BT1             guifg=#808080
+    hi BT2             guifg=#808080
+    hi BT3             guifg=#808080
+    hi BT4             guifg=#808080
+    hi BT5             guifg=#808080
+    hi BT6             guifg=#808080
+    hi BT7             guifg=#808080
+    hi BT8             guifg=#808080
+    hi BT9             guifg=#808080
+
+    " Pre-formatted text
+    hi PT1             guifg=#AE81FF
+    hi PT2             guifg=#AE81FF
+    hi PT3             guifg=#AE81FF
+    hi PT4             guifg=#AE81FF
+    hi PT5             guifg=#AE81FF
+    hi PT6             guifg=#AE81FF
+    hi PT7             guifg=#AE81FF
+    hi PT8             guifg=#AE81FF
+    hi PT9             guifg=#AE81FF
+
+    " Tables
+    hi TA1             guifg=#465457
+    hi TA2             guifg=#465457
+    hi TA3             guifg=#465457
+    hi TA4             guifg=#465457
+    hi TA5             guifg=#465457
+    hi TA6             guifg=#465457
+    hi TA7             guifg=#465457
+    hi TA8             guifg=#465457
+    hi TA9             guifg=#465457
+
+    " 'user text'
+    hi UT1             guifg=#808080
+    hi UT2             guifg=#808080
+    hi UT3             guifg=#808080
+    hi UT4             guifg=#808080
+    hi UT5             guifg=#808080
+    hi UT6             guifg=#808080
+    hi UT7             guifg=#808080
+    hi UT8             guifg=#808080
+    hi UT9             guifg=#808080
+
+    " non-wrapping 'user text'
+    hi UB1             guifg=#BCBCBC
+    hi UB2             guifg=#BCBCBC
+    hi UB3             guifg=#BCBCBC
+    hi UB4             guifg=#BCBCBC
+    hi UB5             guifg=#BCBCBC
+    hi UB6             guifg=#BCBCBC
+    hi UB7             guifg=#BCBCBC
+    hi UB8             guifg=#BCBCBC
+    hi UB9             guifg=#BCBCBC
 
     " brown variant
     if s:vimbrant_original == 1
