@@ -260,16 +260,16 @@ elseif &t_Co > 255
     "hi mailURL         links to String 
     "hi mailEmail       links to Special 
     "hi mailSignature   links to PreProc 
-    hi mailSubject     ctermfg=208
-    hi mailHeaderKey   ctermfg=166
-    hi mailHeader      ctermfg=166
-    hi mailQuoted1     ctermfg=33
-    hi mailQuoted2     ctermfg=118
-    hi mailQuoted3     ctermfg=208
-    hi mailQuoted4     ctermfg=226
-    hi mailQuoted5     ctermfg=135
-    hi mailQuoted6     ctermfg=1
-    
+    hi mailSubject     ctermfg=186
+    hi mailHeaderKey   ctermfg=186
+    hi mailHeader      ctermfg=186
+    hi mailQuoted1     ctermfg=6
+    hi mailQuoted2     ctermfg=14
+    hi mailQuoted3     ctermfg=2
+    hi mailQuoted4     ctermfg=3
+    hi mailQuoted5     ctermfg=1
+    hi mailQuoted6     ctermfg=5
+
     hi MatchParen      ctermfg=16  ctermbg=208   cterm=bold
     hi ModeMsg         ctermfg=229
     hi MoreMsg         ctermfg=229
