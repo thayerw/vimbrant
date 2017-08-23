@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+; vimbrant colorscheme
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00000000
+"ColorTable01"=dword:00d6c256
+"ColorTable02"=dword:0014b482
+"ColorTable03"=dword:00575446
+"ColorTable04"=dword:007226f9
+"ColorTable05"=dword:00fe548c
+"ColorTable06"=dword:001f97fd
+"ColorTable07"=dword:00c6cccc
+"ColorTable08"=dword:00545350
+"ColorTable09"=dword:00ffed8c
+"ColorTable10"=dword:0054e3b6
+"ColorTable11"=dword:00a19c89
+"ColorTable12"=dword:009559ff
+"ColorTable13"=dword:00fe6f9e
+"ColorTable14"=dword:006cedfe
+"ColorTable15"=dword:00f2f8f8
